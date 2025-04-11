@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="900" viewBox="60 0 680 900" xmlns="http://www.w3.org/2000/svg">
+  <!-- High Risk States (Red) -->
+  <path d="M200,180 L350,180 L380,250 L320,300 L200,280 Z" fill="#dc2626" stroke="#000000" stroke-width="2" title="Rajasthan"/>
+  <path d="M320,180 L480,180 L500,280 L400,320 L320,300 Z" fill="#dc2626" stroke="#000000" stroke-width="2" title="Uttar Pradesh"/>
+  <path d="M500,200 L580,200 L600,280 L520,320 L500,280 Z" fill="#dc2626" stroke="#000000" stroke-width="2" title="Bihar"/>
+  <path d="M280,400 L420,400 L440,520 L300,540 L260,480 Z" fill="#dc2626" stroke="#000000" stroke-width="2" title="Maharashtra"/>
+
+  <!-- Medium Risk States (Orange) -->
+  <path d="M300,80 L420,80 L440,140 L320,160 L280,120 Z" fill="#f97316" stroke="#000000" stroke-width="2" title="Jammu and Kashmir"/>
+  <path d="M280,160 L360,160 L380,200 L300,220 L260,180 Z" fill="#f97316" stroke="#000000" stroke-width="2" title="Punjab"/>
+  <path d="M320,200 L400,200 L420,240 L340,260 L300,220 Z" fill="#f97316" stroke="#000000" stroke-width="2" title="Haryana"/>
+  <path d="M580,200 L660,200 L680,280 L600,300 L580,240 Z" fill="#f97316" stroke="#000000" stroke-width="2" title="West Bengal"/>
+  <path d="M180,300 L280,300 L300,400 L200,420 L160,360 Z" fill="#f97316" stroke="#000000" stroke-width="2" title="Gujarat"/>
+  <path d="M300,300 L460,300 L480,400 L320,420 L280,360 Z" fill="#f97316" stroke="#000000" stroke-width="2" title="Madhya Pradesh"/>
+  <path d="M280,540 L400,540 L420,640 L300,660 L260,600 Z" fill="#f97316" stroke="#000000" stroke-width="2" title="Karnataka"/>
+
+  <!-- Low Risk States (Green) -->
+  <path d="M320,140 L400,140 L420,180 L340,200 L300,160 Z" fill="#22c55e" stroke="#000000" stroke-width="2" title="Himachal Pradesh"/>
+  <path d="M380,160 L460,160 L480,200 L400,220 L360,180 Z" fill="#22c55e" stroke="#000000" stroke-width="2" title="Uttarakhand"/>
+  <path d="M300,640 L420,640 L440,740 L320,760 L280,700 Z" fill="#22c55e" stroke="#000000" stroke-width="2" title="Tamil Nadu"/>
+  <path d="M260,640 L320,640 L340,740 L280,760 L240,700 Z" fill="#22c55e" stroke="#000000" stroke-width="2" title="Kerala"/>
+
+  <!-- State Names -->
+  <style>
+    .state-name { 
+      font: bold 16px Arial, sans-serif; 
+      fill: #000000;
+      text-anchor: middle;
+    }
+  </style>
+  <text x="280" y="240" class="state-name">Rajasthan</text>
+  <text x="400" y="240" class="state-name">UP</text>
+  <text x="540" y="240" class="state-name">Bihar</text>
+  <text x="340" y="460" class="state-name">Maharashtra</text>
+  <text x="360" y="120" class="state-name">J&amp;K</text>
+  <text x="320" y="190" class="state-name">Punjab</text>
+  <text x="360" y="230" class="state-name">Haryana</text>
+  <text x="620" y="240" class="state-name">WB</text>
+  <text x="220" y="360" class="state-name">Gujarat</text>
+  <text x="380" y="360" class="state-name">MP</text>
+  <text x="340" y="600" class="state-name">Karnataka</text>
+  <text x="360" y="170" class="state-name">HP</text>
+  <text x="420" y="190" class="state-name">UK</text>
+  <text x="360" y="700" class="state-name">TN</text>
+  <text x="280" y="700" class="state-name">Kerala</text>
+</svg> 
